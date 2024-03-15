@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 5px solid gray;
+    display: table-cell;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#board{
+    background-color: #BEBDB8;
+    border: 5px solid gray;
+}
